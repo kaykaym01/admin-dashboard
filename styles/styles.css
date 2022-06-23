@@ -1,3 +1,24 @@
+/**
+Color Palette
+**/
+:root {
+    --gray-color: #ECECEC;
+    --off-white-color: #F2E7DC;
+    --off-black-color: #0D0D0D;
+    --dark-seagreen-color: #027373;
+    --medium-seagreen-color: #038C7F;
+    --light-seagreen-color: #A9D9D0;
+}
+
+/** Typography **/
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--off-black-color);
+}
+
 *,
 h1 {
     margin: 0;
@@ -25,6 +46,8 @@ ul {
     flex-direction: column;
     justify-content: flex-start;
     gap: 30px;
+    background-color: var(--medium-seagreen-color);
+    color: white;
 }
 
 .sidebar li {
@@ -55,6 +78,11 @@ ul {
     align-items: flex-end;
 }
 
+.header-menu li {
+    background-color: var(--medium-seagreen-color);
+    color: white;
+}
+
 /** Main **/
 .main {
     display: grid;
@@ -62,6 +90,7 @@ ul {
     grid-template-rows: 1fr 1fr;
     column-gap: 10px;
     row-gap: 20px;
+    background-color: var(--gray-color);
 }
 
 /** Projects **/
@@ -79,6 +108,8 @@ ul {
 
 .project {
     padding: 0.5rem;
+    border-left: solid 5px var(--light-seagreen-color);
+    background-color: white;
 }
 
 /** Announcements and Trending **/
@@ -86,6 +117,7 @@ ul {
 .trending-list {
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
 
 .announcement,
