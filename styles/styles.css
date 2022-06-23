@@ -81,12 +81,14 @@ ul {
     padding: 0.5rem;
 }
 
-/** Announcements **/
-.announcements-list {
+/** Announcements and Trending **/
+.announcements-list,
+.trending-list {
     display: flex;
     flex-direction: column;
 }
 
-.announcement {
+.announcement,
+.trending-project {
     padding: 0.5rem;
 }
