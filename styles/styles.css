@@ -80,3 +80,13 @@ ul {
 .project {
     padding: 0.5rem;
 }
+
+/** Announcements **/
+.announcements-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.announcement {
+    padding: 0.5rem;
+}
