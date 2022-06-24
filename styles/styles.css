@@ -105,7 +105,7 @@ ul {
     align-items: flex-end;
 }
 
-.header-icon{
+.header-icon {
     filter: brightness(0) saturate(100%) invert(42%) sepia(0%) saturate(1%) hue-rotate(84deg) brightness(96%) contrast(90%);
     height: 1.25rem;
 }
@@ -127,11 +127,39 @@ ul {
 .header-user {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     gap: 15px;
 }
 
-.header-user .header-icon{
+.header-user .header-icon {
     height: 1.25rem;
+}
+
+.header-user-img {
+    border-radius: 9999px;
+    object-fit: cover;
+}
+
+.header-user .header-user-img {
+    height: 30px;
+    width: 30px;
+}
+
+.header-greeting .header-user-img {
+    height: 50px;
+    width: 50px;
+}
+
+.header-greeting{
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+.user-greet-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .header-menu {
@@ -188,7 +216,7 @@ ul {
     border-radius: 10px;
 }
 
-.project-description{
+.project-description {
     flex: 1;
 }
 
