@@ -135,12 +135,14 @@ ul {
     height: 1.25rem;
 }
 
-.header-user-img {
+.header-user-img,
+.trending-user-img {
     border-radius: 9999px;
     object-fit: cover;
 }
 
-.header-user .header-user-img {
+.header-user .header-user-img,
+.trending-user-img {
     height: 30px;
     width: 30px;
 }
@@ -150,7 +152,7 @@ ul {
     width: 50px;
 }
 
-.header-greeting{
+.header-greeting {
     display: flex;
     gap: 20px;
     align-items: flex-end;
@@ -263,4 +265,15 @@ ul {
 .trending-project,
 .announcement-description {
     font-size: 0.75rem;
+}
+
+.trending-project {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.tredngin-user{
+    display: flex;
+    flex-direction: column;
 }
