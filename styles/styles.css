@@ -153,6 +153,7 @@ ul {
     flex-direction: column;
     justify-content: flex-start;
     gap: 5px;
+    border-radius: 10px;
 }
 
 .announcements,
