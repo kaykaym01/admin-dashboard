@@ -188,6 +188,17 @@ ul {
     border-radius: 10px;
 }
 
+.project-description{
+    flex: 1;
+}
+
+.project-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 10px;
+}
+
 .announcements,
 .trending-projects {
     display: grid;
